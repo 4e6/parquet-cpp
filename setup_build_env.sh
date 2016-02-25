@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# CXXFLAGS="-I$HOME/.nix-profile/include -L$HOME/.nix-profile/lib" ./setup_build_env.sh
+
 SOURCE_DIR=$(cd "$(dirname "$BASH_SOURCE")"; pwd)
 : ${BUILD_DIR:=$SOURCE_DIR/build}
 
